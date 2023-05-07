@@ -33,7 +33,7 @@ const Popularjobs = () => {
           <Text style={styles.headerTitle}>Popular jobs</Text>
         ) : (
           <FlatList 
-            data={[1, 2, 3, 4]}
+            data={data}
             renderItem={({ item }) => (
               <PopularJobCard 
                 item={item}
